@@ -2,8 +2,11 @@ import type { Metadata } from "next"
 import { Montserrat, Fraunces } from "next/font/google"
 import "./globals.css"
 
-const montserrat = Montserrat({ subsets: ["latin"] })
-const fraunces = Fraunces({ subsets: ["latin"] })
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+})
+const fraunces = Fraunces({ subsets: ["latin"], variable: "--font-fraunces" })
 
 export const metadata: Metadata = {
   title: "Frontend Mentor | Product preview card component",
@@ -17,10 +20,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={`${montserrat.className} ${fraunces.className}`}>
-        {children}
-      </body>
+    <html lang="en" className={`${montserrat.variable} ${fraunces.variable}`}>
+      <body className="font-montserrat text-base">{children}</body>
     </html>
   )
 }

@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["var(--font-montserrat)"],
+        fraunces: ["var(--font-fraunces)"],
+      },
       colors: {
         ["fem-cream"]: "var(--color-name-cream)",
         ["fem-deep-aquamarine"]: "var(--color-name-deep-aquamarine)",
