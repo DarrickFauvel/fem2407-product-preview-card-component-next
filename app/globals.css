@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  /* color names from figma  file  */
+  --color-name-cream: 3F2EAE2;
+  --color-name-deep-aquamarine: #3d8168;
+  --color-name-deep-aquamarine-hover: #1a4032;
+  --color-name-gunmetal: #1c232b;
+  --color-name-aurometal-saurus: #6c7289;
+}
