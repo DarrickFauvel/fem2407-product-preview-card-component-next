@@ -2,38 +2,29 @@ import Image from "next/image"
 import CardImage from "./components/image"
 
 import imageCart from "@/assets/images/icon-cart.svg"
+import CardCategoryTitle from "./components/category-title"
+import CardTitle from "./components/title"
+import CardPrice from "./components/price"
+import CardDescription from "./components/description"
+import CardButton from "./components/button"
 
 const Card = () => {
   return (
     <article className="group flex flex-col sm:flex-row sm:w-[600px] my-7 mx-4 bg-white rounded-xl overflow-hidden">
       <CardImage />
       <div className="flex flex-col gap-3 sm:w-1/2 p-6">
-        <h2 className="text-xs text-fem-aurometal-saurus tracking-[5px] uppercase font-medium">
-          Perfume
-        </h2>
+        <CardCategoryTitle>Perfume</CardCategoryTitle>
 
-        <h3 className="text-[2rem] leading-8 text-fem-gunmetal text-balance font-fraunces font-bold">
-          Gabrielle Essence Eau De Parfum
-        </h3>
+        <CardTitle>Gabrielle Essence Eau De Parfum</CardTitle>
 
-        <p className="text-fem-aurometal-saurus font-medium text-sm leading-[1.6]">
+        <CardDescription>
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
+        </CardDescription>
 
-        <div className="flex items-center gap-4 pt-4 pb-2">
-          <span className="text-fem-deep-aquamarine font-fraunces font-bold text-[2rem]">
-            $149.99
-          </span>
-          <span className="line-through text-fem-aurometal-saurus text-[13px] font-medium">
-            $169.99
-          </span>
-        </div>
+        <CardPrice priceNow={149.99} priceBefore={169.99} />
 
-        <button className="flex justify-center items-center gap-2 text-white text-sm font-bold py-3 mt-2 rounded-lg transition-all duration-300 bg-fem-deep-aquamarine hover:bg-fem-deep-aquamarine-hover">
-          <Image src={imageCart} width={14.39} height={16} alt="cart icon" />
-          <span>Add to Cart</span>
-        </button>
+        <CardButton />
       </div>
     </article>
   )
