@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.variable} ${fraunces.variable}`}>
-      <body className="font-montserrat text-base">{children}</body>
+      <body className="font-montserrat text-base bg-fem-cream">{children}</body>
     </html>
   )
 }
