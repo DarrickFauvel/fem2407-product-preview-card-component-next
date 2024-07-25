@@ -5,14 +5,14 @@ import imageCart from "@/assets/images/icon-cart.svg"
 
 const Card = () => {
   return (
-    <article className="group flex flex-col my-7 mx-4 bg-white rounded-xl overflow-hidden">
+    <article className="group flex flex-col sm:flex-row sm:w-[600px] my-7 mx-4 bg-white rounded-xl overflow-hidden">
       <CardImage />
-      <div className="flex flex-col gap-3 p-6">
+      <div className="flex flex-col gap-3 sm:w-1/2 p-6">
         <h2 className="text-xs text-fem-aurometal-saurus tracking-[5px] uppercase font-medium">
           Perfume
         </h2>
 
-        <h3 className="text-[32px] leading-8 text-fem-gunmetal text-balance font-fraunces font-bold">
+        <h3 className="text-[2rem] leading-8 text-fem-gunmetal text-balance font-fraunces font-bold">
           Gabrielle Essence Eau De Parfum
         </h3>
 
@@ -22,7 +22,7 @@ const Card = () => {
         </p>
 
         <div className="flex items-center gap-4 pt-4 pb-2">
-          <span className="text-fem-deep-aquamarine font-fraunces font-bold text-[32px]">
+          <span className="text-fem-deep-aquamarine font-fraunces font-bold text-[2rem]">
             $149.99
           </span>
           <span className="line-through text-fem-aurometal-saurus text-[13px] font-medium">
