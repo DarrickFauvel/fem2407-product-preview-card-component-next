@@ -30,7 +30,7 @@ const Card = () => {
           </span>
         </div>
 
-        <button className="flex justify-center items-center gap-2 text-white text-sm font-bold p-4 mt-2 rounded-lg bg-fem-deep-aquamarine hover:bg-fem-deep-aquamarine-hover">
+        <button className="flex justify-center items-center gap-2 text-white text-sm font-bold py-3 mt-2 rounded-lg transition-all duration-300 bg-fem-deep-aquamarine hover:bg-fem-deep-aquamarine-hover">
           <Image src={imageCart} width={14.39} height={16} alt="cart icon" />
           <span>Add to Cart</span>
         </button>
