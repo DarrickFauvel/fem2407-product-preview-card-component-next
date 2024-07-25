@@ -33,7 +33,7 @@ desktop<br>
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component---tailwind-css-nextjs-k24SYuF57p](https://www.frontendmentor.io/solutions/product-preview-card-component---tailwind-css-nextjs-k24SYuF57p)
 - Live Site URL: [https://fem2407-product-preview-card-component-next.vercel.app/](https://fem2407-product-preview-card-component-next.vercel.app/)
 
 ## My process
