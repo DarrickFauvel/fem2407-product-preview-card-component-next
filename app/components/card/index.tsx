@@ -5,7 +5,7 @@ import imageCart from "@/assets/images/icon-cart.svg"
 
 const Card = () => {
   return (
-    <article className="group flex flex-col my-7 mx-4">
+    <article className="group flex flex-col my-7 mx-4 bg-white rounded-xl overflow-hidden">
       <CardImage />
       <div className="flex flex-col gap-3 p-6">
         <h2 className="text-xs text-fem-aurometal-saurus tracking-[5px] uppercase font-medium">
