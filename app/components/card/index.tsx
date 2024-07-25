@@ -12,7 +12,7 @@ const Card = () => {
   return (
     <article className="group flex flex-col sm:flex-row sm:w-[600px] my-7 mx-4 bg-white rounded-xl overflow-hidden">
       <CardImage />
-      <div className="flex flex-col gap-3 sm:w-1/2 p-6">
+      <div className="flex flex-col sm:justify-center gap-3 sm:w-1/2 p-6">
         <CardCategoryTitle>Perfume</CardCategoryTitle>
 
         <CardTitle>Gabrielle Essence Eau De Parfum</CardTitle>
